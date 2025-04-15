@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Lakshmikanth/static/css/main.2ec237b9.css",
+    "main.css": "/Lakshmikanth/static/css/main.89f6e4cd.css",
     "main.js": "/Lakshmikanth/static/js/main.9e8e431d.js",
     "static/js/453.edb675bb.chunk.js": "/Lakshmikanth/static/js/453.edb675bb.chunk.js",
     "static/media/myProfile.png": "/Lakshmikanth/static/media/myProfile.c6a2fdf76d331e391148.png",
@@ -13,12 +13,12 @@
     "static/media/banking.jpeg": "/Lakshmikanth/static/media/banking.e54fe7cc877c4435ea67.jpeg",
     "static/media/passwordmanager.jpeg": "/Lakshmikanth/static/media/passwordmanager.3002222bcc8ded0e6849.jpeg",
     "index.html": "/Lakshmikanth/index.html",
-    "main.2ec237b9.css.map": "/Lakshmikanth/static/css/main.2ec237b9.css.map",
+    "main.89f6e4cd.css.map": "/Lakshmikanth/static/css/main.89f6e4cd.css.map",
     "main.9e8e431d.js.map": "/Lakshmikanth/static/js/main.9e8e431d.js.map",
     "453.edb675bb.chunk.js.map": "/Lakshmikanth/static/js/453.edb675bb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2ec237b9.css",
+    "static/css/main.89f6e4cd.css",
     "static/js/main.9e8e431d.js"
   ]
 }
