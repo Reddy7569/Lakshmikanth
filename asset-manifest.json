@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Lakshmikanth/static/css/main.2ec237b9.css",
+    "main.js": "/Lakshmikanth/static/js/main.9e8e431d.js",
+    "static/js/453.edb675bb.chunk.js": "/Lakshmikanth/static/js/453.edb675bb.chunk.js",
+    "static/media/myProfile.png": "/Lakshmikanth/static/media/myProfile.c6a2fdf76d331e391148.png",
+    "static/media/naturephoto.jpeg": "/Lakshmikanth/static/media/naturephoto.b7c89b67221adb57b622.jpeg",
+    "static/media/nxtwatch.jpeg": "/Lakshmikanth/static/media/nxtwatch.f13220647618bcbd503e.jpeg",
+    "static/media/primevideo.jpeg": "/Lakshmikanth/static/media/primevideo.0e65729568b3ede1b965.jpeg",
+    "static/media/emojigame.jpeg": "/Lakshmikanth/static/media/emojigame.91998043c9d796f123aa.jpeg",
+    "static/media/matchgame.jpeg": "/Lakshmikanth/static/media/matchgame.06bc4d73699a423ef012.jpeg",
+    "static/media/digitaltimer.jpeg": "/Lakshmikanth/static/media/digitaltimer.32b348a8b77c3efac09f.jpeg",
+    "static/media/banking.jpeg": "/Lakshmikanth/static/media/banking.e54fe7cc877c4435ea67.jpeg",
+    "static/media/passwordmanager.jpeg": "/Lakshmikanth/static/media/passwordmanager.3002222bcc8ded0e6849.jpeg",
+    "index.html": "/Lakshmikanth/index.html",
+    "main.2ec237b9.css.map": "/Lakshmikanth/static/css/main.2ec237b9.css.map",
+    "main.9e8e431d.js.map": "/Lakshmikanth/static/js/main.9e8e431d.js.map",
+    "453.edb675bb.chunk.js.map": "/Lakshmikanth/static/js/453.edb675bb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2ec237b9.css",
+    "static/js/main.9e8e431d.js"
+  ]
+}
