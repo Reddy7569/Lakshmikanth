@@ -1,0 +1,40 @@
+/* App.css */
+
+
+
+.app-container {
+  padding-top: 70px; /* Adjust based on navbar height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section {
+  width: 100%;
+  max-width: 1200px; /* Limit width to prevent over stretching */
+  padding: 80px 20px;
+  margin-top: 80px; /* Add space between sections */
+  box-sizing: border-box; /* Make sure padding is within width */
+}
+
+#about {
+  background-color: #f4f7fc;
+  border-radius: 20px;
+}
+
+#resume {
+  background-color: #ffffff;
+  border-radius: 20px ;
+}
+
+#project {
+  background-color: #f9fafb;
+  border-radius: 20px;
+}
+
+#contact {
+  background-color: #ffffff;
+  border-radius: 20px ;
+}
+

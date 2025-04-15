@@ -1,0 +1,117 @@
+.projects-container {
+  padding: 4rem 2rem;
+  background-color: #f8fafc; /* Light neutral (60%) */
+  color: #1f2937; /* Dark slate for text */
+  text-align: center;
+}
+
+.projects-heading {
+  font-size: 2.5rem;
+  color: #0f172a; /* Primary heading (30%) */
+  margin-bottom: 0.5rem;
+}
+
+.projects-content {
+  font-size: 1.1rem;
+  max-width: 700px;
+  margin: 0 auto 3rem;
+  color: #475569;
+}
+
+.project-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  justify-items: center;
+}
+
+.project-item {
+  background-color: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  max-width: 320px;
+  width: 100%;
+}
+
+.project-item:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+}
+
+.image-container {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.projectimage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+.project-item:hover .projectimage {
+  transform: scale(1.05);
+}
+
+.icon-overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.3s ease;
+}
+
+.image-container:hover .icon-overlay {
+  opacity: 1;
+}
+
+.fa-eye-icon {
+  color: #10b981; /* Accent cyan (10%) */
+  font-size: 1.8rem;
+}
+
+.project-discription-heading {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0.75rem 0 0.25rem;
+  color: #0f172a;
+}
+
+.project-discription {
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+  padding: 0 1rem;
+  color: #64748b;
+}
+
+@media (max-width: 640px) {
+  .projects-container {
+    padding: 2rem 1rem;
+  }
+
+  .projects-heading {
+    font-size: 2rem;
+  }
+
+  .project-items {
+    gap: 1rem;
+  }
+
+  .project-discription-heading {
+    font-size: 1rem;
+  }
+
+  .project-discription {
+    font-size: 0.85rem;
+  }
+}
