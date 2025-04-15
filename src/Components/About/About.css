@@ -64,6 +64,7 @@
   .about-container {
     flex-direction: column; /* Stack elements vertically on small screens */
     padding: 40px 20px;
+    height: 100%;
   }
 
   .about-title {

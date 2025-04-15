@@ -16,6 +16,7 @@
   padding: 80px 20px;
   margin-top: 80px; /* Add space between sections */
   box-sizing: border-box; /* Make sure padding is within width */
+  height: 100%;
 }
 
 #about {
