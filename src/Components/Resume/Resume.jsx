@@ -9,7 +9,7 @@ import react from './SkillsImages/react.png';
 import node from './SkillsImages/node-js.png'
 import mongo from './SkillsImages/mongodb.png'
 import mqsql from './SkillsImages/mysql.png'
-import sqlite from './SkillsImages/sqlite.png'
+import flask from './SkillsImages/flask.png'
 import python from './SkillsImages/python-logo.png'
 import git from './SkillsImages/git.png'
 import github from './SkillsImages/github-logo.png'
@@ -23,7 +23,8 @@ const Resume = () => (
       <h4 className="section-heading">Education</h4>
       {[
         { title: 'Bachelors of Science', year: '2021 - 2024', school: 'Sri Krishnadevaraya University' },
-        { title: 'Secondary Education', year: '2018 - 2020', school: 'Sri Vignan Junior College' },
+        { title: 'Higher Secondary Education', year: '2018 - 2020', school: 'Sri Vignan Junior College' },
+        { title: 'Secondary Education', year: '2017 - 2018', school: 'Jeevan Jyothi E.M High School' },
       ].map((edu, idx) => (
         <div key={idx} className="resume-item">
           <FontAwesomeIcon icon={faGraduationCap} />
@@ -55,7 +56,7 @@ const Resume = () => (
     <section>
       <h4 className="section-heading">Skills</h4>
       <div className="skills">
-        {[html, css, javascript, react,python,sqlite,mqsql,bootstrap,mongo,node,git,github].map((skill, idx) => (
+        {[html, css, javascript, react,python,flask,mqsql,bootstrap,mongo,node,git,github].map((skill, idx) => (
           <div key={idx} className="skill">
             <img src={skill} alt={`skill-${idx}`} />
           </div>

@@ -11,7 +11,9 @@ const About = () => {
       <div className="about-text-wrapper">
         <h2 className="about-title">About Me</h2>
         <p className="about-description">
-          I'm a passionate web developer with experience in both front-end and back-end technologies. I have a strong foundation in JavaScript, HTML, CSS, and modern frameworks like React and Node.js. I enjoy building innovative and efficient solutions to solve real-world problems, and I am always eager to learn new skills and technologies. Whether it's creating dynamic, responsive user interfaces or working with databases to build scalable back-end services, I strive to deliver clean, maintainable, and user-friendly applications. I'm a firm believer in the power of collaboration and enjoy working in teams to bring ideas to life.
+          I’m a passionate Full Stack Developer with expertise in Python and modern web technologies. I have a strong foundation in Python (Flask/Django) for back-end development and JavaScript, HTML, CSS, and React for building dynamic front-end interfaces. I enjoy designing and implementing efficient, scalable solutions to solve real-world problems and am always eager to learn new tools and technologies.
+
+Whether it’s creating responsive, user-friendly front-end experiences or managing databases and server-side logic to build robust back-end services, I focus on delivering clean, maintainable, and performant applications. I am a firm believer in the power of collaboration and thrive in team environments where innovative ideas can be brought to life.
         </p>
 
         <div className="social-icons">
